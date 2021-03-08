@@ -1,6 +1,6 @@
-const dbuser = 'abcd';
-const dbpassword = 'abcd12';
+const dbuser = 'dbuser';
+const dbpassword = 'E5udMvpNy6LOTRAJ';
 
-const MONGODB_URI = `mongodb://${dbuser}:${dbpassword}@ds125453.mlab.com:25453/mern-example`;
+const MONGODB_URI = `mongodb://${dbuser}:${dbpassword}@cluster0.itxtq.mongodb.net/mern-example`;
 
 module.exports = MONGODB_URI;
